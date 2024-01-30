@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #2c3fbc;
+    border: 1px solid black;
+}
+
+.board-row {
+    display: flex;
+    justify-content: center;
+}
+
+.x-mark {
+    color: black;
+    font-size: 50px;
+}
